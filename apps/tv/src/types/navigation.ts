@@ -10,6 +10,7 @@ export type ActiveSection =
   | 'movies'
   | 'series'
   | 'favorites'
+  | 'search'
   | 'epg'
   | 'playlists'
   | 'settings';

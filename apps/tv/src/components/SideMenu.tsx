@@ -13,6 +13,7 @@ const MENU_ITEMS: (TVNavigationItem & { key: ActiveSection })[] = [
   { key: 'movies', id: 'nav-movies', title: 'Filmes', icon: '🎬' },
   { key: 'series', id: 'nav-series', title: 'Séries', icon: '🍿' },
   { key: 'favorites', id: 'nav-favorites', title: 'Favoritos', icon: '⭐' },
+  { key: 'search', id: 'nav-search', title: 'Buscar', icon: '🔍' },
   { key: 'epg', id: 'nav-epg', title: 'Guia de TV (EPG)', icon: '📅' },
   { key: 'playlists', id: 'nav-playlists', title: 'Playlists', icon: '📂' },
   { key: 'settings', id: 'nav-settings', title: 'Configurações', icon: '⚙️' },
