@@ -1,0 +1,14 @@
+{
+  "name": "iptv-monorepo",
+  "version": "1.0.0",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "tv:android": "npm run android --workspace=apps/tv",
+    "tv:start": "npm run start --workspace=apps/tv"
+  }
+}
+
